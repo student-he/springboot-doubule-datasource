@@ -1,0 +1,26 @@
+2021-01-20 15:17:02.978 INFO main - Starting AppStartApplication using Java 1.8.0_201 on LAPTOP-688U0ICC with PID 1748 (D:\Study\Java\Program\SpringBoot\springbootDoubleDatabases\target\classes started by ZhengWei in D:\Study\Java\Program\SpringBoot\springbootDoubleDatabases)
+2021-01-20 15:17:02.978 INFO main - No active profile set, falling back to default profiles: default
+2021-01-20 15:17:03.377 WARN main - Skipping MapperFactoryBean with name 'IUserDao' and 'com.arbitrary.dao.master.IUserDao' mapperInterface. Bean already defined with the same name!
+2021-01-20 15:17:03.377 WARN main - Skipping MapperFactoryBean with name 'ICityDao' and 'com.arbitrary.dao.slave.ICityDao' mapperInterface. Bean already defined with the same name!
+2021-01-20 15:17:03.404 WARN main - No MyBatis mapper was found in '[com.arbitrary.dao.master, com.arbitrary.dao.slave]' package. Please check your configuration.
+2021-01-20 15:17:03.889 INFO main - Tomcat initialized with port(s): 8089 (http)
+2021-01-20 15:17:03.889 INFO main - Initializing ProtocolHandler ["http-nio-8089"]
+2021-01-20 15:17:03.889 INFO main - Starting service [Tomcat]
+2021-01-20 15:17:03.889 INFO main - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-01-20 15:17:03.983 INFO main - Initializing Spring embedded WebApplicationContext
+2021-01-20 15:17:03.983 INFO main - Root WebApplicationContext: initialization completed in 936 ms
+2021-01-20 15:17:04.358 INFO main - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 15:17:04.521 INFO main - Starting ProtocolHandler ["http-nio-8089"]
+2021-01-20 15:17:04.536 INFO main - Tomcat started on port(s): 8089 (http) with context path ''
+2021-01-20 15:17:04.552 INFO main - Started AppStartApplication in 1.974 seconds (JVM running for 2.668)
+2021-01-20 15:17:09.782 INFO http-nio-8089-exec-1 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 15:17:09.782 INFO http-nio-8089-exec-1 - Initializing Servlet 'dispatcherServlet'
+2021-01-20 15:17:09.783 INFO http-nio-8089-exec-1 - Completed initialization in 1 ms
+2021-01-20 15:17:09.822 INFO http-nio-8089-exec-1 - HikariPool-1 - Starting...
+2021-01-20 15:17:09.921 INFO http-nio-8089-exec-1 - HikariPool-1 - Start completed.
+2021-01-20 15:17:09.922 DEBUG http-nio-8089-exec-1 - ==>  Preparing: select id, name, description from user 
+2021-01-20 15:17:09.943 DEBUG http-nio-8089-exec-1 - ==> Parameters: 
+2021-01-20 15:17:09.998 DEBUG http-nio-8089-exec-1 - <==      Total: 0
+2021-01-20 15:17:22.966 INFO SpringContextShutdownHook - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 15:17:22.966 INFO SpringContextShutdownHook - HikariPool-1 - Shutdown initiated...
+2021-01-20 15:17:22.966 INFO SpringContextShutdownHook - HikariPool-1 - Shutdown completed.
